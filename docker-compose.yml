@@ -4,7 +4,6 @@ services:
       context: .
       dockerfile: Dockerfile
     image: openwa-openwa-api:latest
-    container_name: openwa-api
     restart: unless-stopped
     environment:
       - NODE_ENV=production
